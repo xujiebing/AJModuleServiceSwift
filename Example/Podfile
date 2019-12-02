@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AJModuleServiceSwift_Example' do
+  pod 'AJModuleServiceSwift', :path => '../'
+
+  target 'AJModuleServiceSwift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
