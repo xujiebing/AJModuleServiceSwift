@@ -1,0 +1,6 @@
+framework module AJModuleServiceSwift {
+  umbrella header "AJModuleServiceSwift-umbrella.h"
+
+  export *
+  module * { export * }
+}

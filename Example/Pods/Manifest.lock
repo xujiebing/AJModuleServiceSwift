@@ -1,0 +1,16 @@
+PODS:
+  - AJModuleServiceSwift (0.1.0)
+
+DEPENDENCIES:
+  - AJModuleServiceSwift (from `../`)
+
+EXTERNAL SOURCES:
+  AJModuleServiceSwift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AJModuleServiceSwift: e952cfb6bf4384362d7000e1794b2bf8af8d4d62
+
+PODFILE CHECKSUM: d7c9f00c00ee9e3393d4b8d2d26bb1b2534a6de8
+
+COCOAPODS: 1.7.5
