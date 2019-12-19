@@ -1,11 +1,12 @@
 use_frameworks!
 
 target 'AJModuleServiceSwift_Example' do
-  pod 'AJModuleServiceSwift', :path => '../'
+  
+  pod 'AJModuleServiceSwift',
+  :path => '../'
 
-  target 'AJModuleServiceSwift_Tests' do
-    inherit! :search_paths
-
-    
-  end
+#  pod 'AJKitSwift',
+#  :subspecs => ['Foundation', 'UIKit'],
+#  :path => '../../AJKitSwift'
+  
 end

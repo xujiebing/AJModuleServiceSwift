@@ -18,5 +18,11 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "AJModuleServiceSwift/Classes/**/*"
+  "source_files": "AJModuleServiceSwift/Classes/*.{h,swift}",
+  "public_header_files": "AJModuleServiceSwift/Classes/AJModuleServiceSwift.h",
+  "dependencies": {
+    "AJKitSwift": [
+
+    ]
+  }
 }

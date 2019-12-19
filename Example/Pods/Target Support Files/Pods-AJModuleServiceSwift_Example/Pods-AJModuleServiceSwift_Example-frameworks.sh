@@ -161,9 +161,11 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AJKitSwift/AJKitSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AJModuleServiceSwift/AJModuleServiceSwift.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/AJKitSwift/AJKitSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AJModuleServiceSwift/AJModuleServiceSwift.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

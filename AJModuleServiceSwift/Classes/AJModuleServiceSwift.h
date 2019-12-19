@@ -8,5 +8,6 @@
 #ifndef AJModuleServiceSwift_h
 #define AJModuleServiceSwift_h
 
+@import AJKitSwift;
 
 #endif /* AJModuleServiceSwift_h */

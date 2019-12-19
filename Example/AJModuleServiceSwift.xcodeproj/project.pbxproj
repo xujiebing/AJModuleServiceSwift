@@ -13,7 +13,10 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		84783047DAC9E0F337D6901D /* Pods_AJModuleServiceSwift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB15478339294ACEA937D80C /* Pods_AJModuleServiceSwift_Tests.framework */; };
+		9B89ADE223ABC7F300364518 /* Service1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B89ADE123ABC7F300364518 /* Service1.swift */; };
+		9B89ADE423ABCAD700364518 /* Service2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B89ADE323ABCAD700364518 /* Service2.swift */; };
+		9B89ADE623ABCAE300364518 /* Service3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B89ADE523ABCAE300364518 /* Service3.swift */; };
+		9B89ADE823ABCAEE00364518 /* Service4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B89ADE723ABCAEE00364518 /* Service4.swift */; };
 		B19E606ABAD994AB85310C07 /* Pods_AJModuleServiceSwift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03112C9E0232C14E3DF54924 /* Pods_AJModuleServiceSwift_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,8 +32,6 @@
 
 /* Begin PBXFileReference section */
 		03112C9E0232C14E3DF54924 /* Pods_AJModuleServiceSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJModuleServiceSwift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		271229E5D969D5A446268558 /* Pods-AJModuleServiceSwift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJModuleServiceSwift_Tests.release.xcconfig"; path = "Target Support Files/Pods-AJModuleServiceSwift_Tests/Pods-AJModuleServiceSwift_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		355F0AB094012EF9F674B0FB /* Pods-AJModuleServiceSwift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJModuleServiceSwift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-AJModuleServiceSwift_Tests/Pods-AJModuleServiceSwift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* AJModuleServiceSwift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AJModuleServiceSwift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,10 +43,13 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		85EB518E0DC462CDCC607B08 /* Pods-AJModuleServiceSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJModuleServiceSwift_Example.debug.xcconfig"; path = "Target Support Files/Pods-AJModuleServiceSwift_Example/Pods-AJModuleServiceSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B09E0E8F8DC5D042D3EB645C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		BB15478339294ACEA937D80C /* Pods_AJModuleServiceSwift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AJModuleServiceSwift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E77444E9C15F97007FC79B3E /* AJModuleServiceSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AJModuleServiceSwift.podspec; path = ../AJModuleServiceSwift.podspec; sourceTree = "<group>"; };
-		EF289FD52250DE01CF7AFC01 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9B89ADE123ABC7F300364518 /* Service1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service1.swift; sourceTree = "<group>"; };
+		9B89ADE323ABCAD700364518 /* Service2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service2.swift; sourceTree = "<group>"; };
+		9B89ADE523ABCAE300364518 /* Service3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service3.swift; sourceTree = "<group>"; };
+		9B89ADE723ABCAEE00364518 /* Service4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service4.swift; sourceTree = "<group>"; };
+		B09E0E8F8DC5D042D3EB645C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		E77444E9C15F97007FC79B3E /* AJModuleServiceSwift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AJModuleServiceSwift.podspec; path = ../AJModuleServiceSwift.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		EF289FD52250DE01CF7AFC01 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F1B387528FABF5C4FDC0ABE4 /* Pods-AJModuleServiceSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AJModuleServiceSwift_Example.release.xcconfig"; path = "Target Support Files/Pods-AJModuleServiceSwift_Example/Pods-AJModuleServiceSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,7 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84783047DAC9E0F337D6901D /* Pods_AJModuleServiceSwift_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +98,10 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				9B89ADE123ABC7F300364518 /* Service1.swift */,
+				9B89ADE323ABCAD700364518 /* Service2.swift */,
+				9B89ADE523ABCAE300364518 /* Service3.swift */,
+				9B89ADE723ABCAEE00364518 /* Service4.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -144,10 +151,7 @@
 			children = (
 				85EB518E0DC462CDCC607B08 /* Pods-AJModuleServiceSwift_Example.debug.xcconfig */,
 				F1B387528FABF5C4FDC0ABE4 /* Pods-AJModuleServiceSwift_Example.release.xcconfig */,
-				355F0AB094012EF9F674B0FB /* Pods-AJModuleServiceSwift_Tests.debug.xcconfig */,
-				271229E5D969D5A446268558 /* Pods-AJModuleServiceSwift_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -155,7 +159,6 @@
 			isa = PBXGroup;
 			children = (
 				03112C9E0232C14E3DF54924 /* Pods_AJModuleServiceSwift_Example.framework */,
-				BB15478339294ACEA937D80C /* Pods_AJModuleServiceSwift_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -186,7 +189,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "AJModuleServiceSwift_Tests" */;
 			buildPhases = (
-				8AE6529BC270645C8F678C86 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
@@ -208,7 +210,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
@@ -224,7 +226,7 @@
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "AJModuleServiceSwift" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -269,37 +271,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-AJModuleServiceSwift_Example/Pods-AJModuleServiceSwift_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AJKitSwift/AJKitSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/AJModuleServiceSwift/AJModuleServiceSwift.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AJKitSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AJModuleServiceSwift.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AJModuleServiceSwift_Example/Pods-AJModuleServiceSwift_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		8AE6529BC270645C8F678C86 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-AJModuleServiceSwift_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A5F70E904D4E64603C16F715 /* [CP] Check Pods Manifest.lock */ = {
@@ -331,7 +313,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B89ADE623ABCAE300364518 /* Service3.swift in Sources */,
+				9B89ADE423ABCAD700364518 /* Service2.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				9B89ADE223ABC7F300364518 /* Service1.swift in Sources */,
+				9B89ADE823ABCAEE00364518 /* Service4.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -386,12 +373,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -431,6 +420,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -439,12 +429,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -505,7 +497,6 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 355F0AB094012EF9F674B0FB /* Pods-AJModuleServiceSwift_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -527,7 +518,6 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 271229E5D969D5A446268558 /* Pods-AJModuleServiceSwift_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",

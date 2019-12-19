@@ -13,4 +13,4 @@ import UIKit
 let argc = CommandLine.argc // Swift 3 把 Process改为CommandLine 了
 let argv = UnsafeMutablePointer<UnsafeMutablePointer<Int8>>.allocate(capacity: Int(CommandLine.argc))
 // let argv = UnsafeMutableRawPointer(CommandLine.unsafeArgv).bindMemory(to: UnsafeMutablePointer<Int8>.self, capacity: Int(CommandLine.argc))
-UIApplicationMain(argc, argv, nil, NSStringFromClass(AppDelegate.self))
+UIApplicationMain(argc, argv, nil, NSStringFromClass(AJAppDelegate.self))

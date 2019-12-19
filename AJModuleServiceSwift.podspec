@@ -16,15 +16,8 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'AJModuleServiceSwift/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'AJModuleServiceSwift' => ['AJModuleServiceSwift/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
-  
+  s.source_files = 'AJModuleServiceSwift/Classes/*.{h,swift}'
+  s.public_header_files = 'AJModuleServiceSwift/Classes/AJModuleServiceSwift.h'
+  s.dependency 'AJKitSwift'
   
 end
