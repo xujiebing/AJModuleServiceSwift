@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "AJModuleServiceSwift.h"
+#import "AJModuleService.h"
 
 FOUNDATION_EXPORT double AJModuleServiceSwiftVersionNumber;
 FOUNDATION_EXPORT const unsigned char AJModuleServiceSwiftVersionString[];

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AJModuleServiceSwift'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A short description of AJModuleServiceSwift.'
 
   s.description      = <<-DESC
@@ -17,7 +17,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'AJModuleServiceSwift/Classes/*.{h,swift}'
-  s.public_header_files = 'AJModuleServiceSwift/Classes/AJModuleServiceSwift.h'
+#  s.public_header_files = 'AJModuleServiceSwift/Classes/AJModuleServiceSwift.h'
   s.dependency 'AJKitSwift'
   
 end

@@ -9,7 +9,7 @@ DEPENDENCIES:
   - AJModuleServiceSwift (from `../`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  https://github.com/CocoaPods/Specs.git:
     - AJKitSwift
 
 EXTERNAL SOURCES:
@@ -18,8 +18,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AJKitSwift: 518d81fb7fe75f5d601cc612df78797f880c8728
-  AJModuleServiceSwift: 9228c47ec41eba6743d32733706664145358eb75
+  AJModuleServiceSwift: 8b9a9e17828f713cb50a1e8c9e79038280392b98
 
 PODFILE CHECKSUM: 11fd9da7d9d57c88b29ae36f017ee55045a10c7f
 
-COCOAPODS: 1.7.5
+COCOAPODS: 1.8.4

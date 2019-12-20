@@ -9,21 +9,21 @@
 /* Begin PBXBuildFile section */
 		0D9D2BCBCB0195759E2CCDACBD0E4012 /* NSObject+AJKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8221A63A9718A7717EDFFE2D448F5B04 /* NSObject+AJKit.swift */; };
 		121184497316A4ADF4757337061D92E6 /* AJKitSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4FA264A0683C21ED7A98C418FAC4D9C /* AJKitSwift.framework */; };
-		1B919CD3AB5BDBA6BE050A22CE9E1C37 /* AJModuleServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C1B6E142CAE757D301857BE13A9516 /* AJModuleServiceManager.swift */; };
-		3EE23A800C5D490C5B8B4921728AED75 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638B108FB51575E55330136129926F7F /* main.swift */; };
+		1B919CD3AB5BDBA6BE050A22CE9E1C37 /* AJModuleServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0718B3EFE142FA19E7D5C1E63C87D11 /* AJModuleServiceManager.swift */; };
+		3EE23A800C5D490C5B8B4921728AED75 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77A868FF703F4889B3124A122DCDEE5B /* main.swift */; };
 		41A9AE7EF0EF83D2B0EBAFFA913A76FE /* Pods-AJModuleServiceSwift_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C31E3325F2A4A19CD8A1E7B2EF77885C /* Pods-AJModuleServiceSwift_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C3527A7CC2E9A759086D6EC194EEC78 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151467C6EE20ADE12C66E2EAA6B772F3 /* Foundation.framework */; };
 		67B1EE27EAA82754F59CB55868E6F08F /* AJKitConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A714B7436EF905390A4591323E1F874F /* AJKitConfig.swift */; };
 		7C358A097362F0931A8DA44A48131726 /* AJKitSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D012CB4A0D0088358944D6C1422345F8 /* AJKitSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8530BA4FB23B0DAA14C8985E96BA8A92 /* AJModuleServiceSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84D34C6DFF8FF1485AE1B58B45970188 /* AJModuleServiceSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AA950599F288ACD4C619C75DCE7CD9E /* AJModuleService.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D5A906297777C6882A7E48457284DCA /* AJModuleService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8F89F5F5C994ED8040475C7D7EF64C51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151467C6EE20ADE12C66E2EAA6B772F3 /* Foundation.framework */; };
 		A6C38E86B1B4216E71CC450C7034FC07 /* Pods-AJModuleServiceSwift_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F811A755A48E544CBEC161B954EB92 /* Pods-AJModuleServiceSwift_Example-dummy.m */; };
-		A8974DACE79FEA7C973632E200F78C06 /* AJModuleServiceSwift.h in Headers */ = {isa = PBXBuildFile; fileRef = 140E8C1F77AA81A0C2E41C6098ADB8CB /* AJModuleServiceSwift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B77506A88F5E2CFCBF9D5D085931B6D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 151467C6EE20ADE12C66E2EAA6B772F3 /* Foundation.framework */; };
-		BD727CCE2A15A492740C1FBF08DF7650 /* AJModuleServiceSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24AB27E39832C2CE1C9FBBAB43C6D791 /* AJModuleServiceSwift-dummy.m */; };
+		BD727CCE2A15A492740C1FBF08DF7650 /* AJModuleServiceSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA469B07227E4BD76CFB96C01D60EFEC /* AJModuleServiceSwift-dummy.m */; };
 		C0D23E59E99F57A5531573826EC91231 /* String+AJKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE08783D9E2D56EBD97AD50517C5A069 /* String+AJKit.swift */; };
-		C1A23D2650EA8261797B35A687AE5B36 /* AJModuleServiceSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A286350564CC4491EDB778608FAD71C /* AJModuleServiceSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2774E4B662821C685105931ABD1CA9A /* AJAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4374C8E65906088012A9AF4184889A7C /* AJAppDelegate.swift */; };
-		DBF8B066BCE4C2F76FC51ADDD619B69E /* AJModuleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1761CB21DF3D666D36F1EF3F05CD9C2 /* AJModuleService.swift */; };
+		D2774E4B662821C685105931ABD1CA9A /* AJAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E05A5FEDF376E4C53EFBCCAFBC8139A /* AJAppDelegate.swift */; };
+		DBF8B066BCE4C2F76FC51ADDD619B69E /* AJModuleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6EE2DBAAE63ADBBD9097482CACB3077 /* AJModuleService.swift */; };
 		E3D5250525DF865F1D395DA72A35C30D /* AJKitSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 031E8E43B976C2FC731DEB6CC6698A7F /* AJKitSwift-dummy.m */; };
 /* End PBXBuildFile section */
 
@@ -53,43 +53,43 @@
 
 /* Begin PBXFileReference section */
 		031E8E43B976C2FC731DEB6CC6698A7F /* AJKitSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AJKitSwift-dummy.m"; sourceTree = "<group>"; };
+		0AE21CE7CAE261069DA7F978F7A5C925 /* AJModuleServiceSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AJModuleServiceSwift.modulemap; sourceTree = "<group>"; };
 		10653986F4BE0A0F9EFBBA5C888A8B47 /* AJKitSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJKitSwift-prefix.pch"; sourceTree = "<group>"; };
-		140E8C1F77AA81A0C2E41C6098ADB8CB /* AJModuleServiceSwift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AJModuleServiceSwift.h; path = AJModuleServiceSwift/Classes/AJModuleServiceSwift.h; sourceTree = "<group>"; };
 		151467C6EE20ADE12C66E2EAA6B772F3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		17636C728A2775F01D7BBB83ADBD4603 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		1893D788202CFCC7A8DB3550A0E94645 /* AJModuleServiceSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AJModuleServiceSwift.xcconfig; sourceTree = "<group>"; };
 		1F2667C8F9100A34EFC629E89DD05940 /* AJKitSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AJKitSwift.framework; path = AJKitSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F811A755A48E544CBEC161B954EB92 /* Pods-AJModuleServiceSwift_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AJModuleServiceSwift_Example-dummy.m"; sourceTree = "<group>"; };
-		24AB27E39832C2CE1C9FBBAB43C6D791 /* AJModuleServiceSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AJModuleServiceSwift-dummy.m"; sourceTree = "<group>"; };
 		3205EE43AB62E39D6FA684860C2B3B11 /* Pods-AJModuleServiceSwift_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJModuleServiceSwift_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		36FDE4CCA51E1CF2E65DFA2A8E579F6F /* Pods-AJModuleServiceSwift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJModuleServiceSwift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		406D827746B52D577F1676A38C19704D /* Pods-AJModuleServiceSwift_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AJModuleServiceSwift_Example.modulemap"; sourceTree = "<group>"; };
-		41D944EDB82D321971298F62AB523118 /* AJModuleServiceSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJModuleServiceSwift-prefix.pch"; sourceTree = "<group>"; };
 		41FD7E04CE50809EE3BF2A334C445E09 /* Pods_AJModuleServiceSwift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AJModuleServiceSwift_Example.framework; path = "Pods-AJModuleServiceSwift_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4374C8E65906088012A9AF4184889A7C /* AJAppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AJAppDelegate.swift; path = AJModuleServiceSwift/Classes/AJAppDelegate.swift; sourceTree = "<group>"; };
 		45A5FCC395E620AD1A345BB4C628D4D2 /* AJKitSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AJKitSwift.xcconfig; sourceTree = "<group>"; };
+		481B66F010EB7396662A60063E625B61 /* AJModuleServiceSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AJModuleServiceSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5467F13A5BB270CBA2313021392BA513 /* Pods-AJModuleServiceSwift_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AJModuleServiceSwift_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		57628537518849D4552108581BAD0EDC /* AJModuleServiceSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AJModuleServiceSwift.modulemap; sourceTree = "<group>"; };
+		54BC344393CBC82BAC320DFD07151CBB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		564373BC9BDBC5AA3B038996F55EA9E1 /* AJModuleServiceSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJModuleServiceSwift-prefix.pch"; sourceTree = "<group>"; };
 		5AFC8EBCECE1C5856A2D2DEFEAA29F0C /* Pods-AJModuleServiceSwift_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AJModuleServiceSwift_Example-frameworks.sh"; sourceTree = "<group>"; };
-		638B108FB51575E55330136129926F7F /* main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = main.swift; path = AJModuleServiceSwift/Classes/main.swift; sourceTree = "<group>"; };
-		741C1DA06A3DC17F06C37AD3E162E89B /* AJModuleServiceSwift.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AJModuleServiceSwift.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5D5A906297777C6882A7E48457284DCA /* AJModuleService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AJModuleService.h; path = AJModuleServiceSwift/Classes/AJModuleService.h; sourceTree = "<group>"; };
+		5E05A5FEDF376E4C53EFBCCAFBC8139A /* AJAppDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AJAppDelegate.swift; path = AJModuleServiceSwift/Classes/AJAppDelegate.swift; sourceTree = "<group>"; };
+		6756C468034E255957148D285F7D29A4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		77A868FF703F4889B3124A122DCDEE5B /* main.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = main.swift; path = AJModuleServiceSwift/Classes/main.swift; sourceTree = "<group>"; };
 		81F9504346EADEE080980270278D1D52 /* Pods-AJModuleServiceSwift_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AJModuleServiceSwift_Example-Info.plist"; sourceTree = "<group>"; };
 		8221A63A9718A7717EDFFE2D448F5B04 /* NSObject+AJKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+AJKit.swift"; path = "AJKitSwift/Classes/Foundation/NSObject+AJKit.swift"; sourceTree = "<group>"; };
-		9A286350564CC4491EDB778608FAD71C /* AJModuleServiceSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJModuleServiceSwift-umbrella.h"; sourceTree = "<group>"; };
+		84D34C6DFF8FF1485AE1B58B45970188 /* AJModuleServiceSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJModuleServiceSwift-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0718B3EFE142FA19E7D5C1E63C87D11 /* AJModuleServiceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AJModuleServiceManager.swift; path = AJModuleServiceSwift/Classes/AJModuleServiceManager.swift; sourceTree = "<group>"; };
 		A714B7436EF905390A4591323E1F874F /* AJKitConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AJKitConfig.swift; path = AJKitSwift/Classes/Foundation/AJKitConfig.swift; sourceTree = "<group>"; };
 		B4FA264A0683C21ED7A98C418FAC4D9C /* AJKitSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AJKitSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7CEAC48ACA081695D5CC6E31A9C6908 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		BB5F4FB95C2DB4FE7B1A59295E495C5E /* AJModuleServiceSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AJModuleServiceSwift.framework; path = AJModuleServiceSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C31E3325F2A4A19CD8A1E7B2EF77885C /* Pods-AJModuleServiceSwift_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AJModuleServiceSwift_Example-umbrella.h"; sourceTree = "<group>"; };
 		C5CC06DF01F4A5C55914B41F19233506 /* Pods-AJModuleServiceSwift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AJModuleServiceSwift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D012CB4A0D0088358944D6C1422345F8 /* AJKitSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AJKitSwift-umbrella.h"; sourceTree = "<group>"; };
-		D1761CB21DF3D666D36F1EF3F05CD9C2 /* AJModuleService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AJModuleService.swift; path = AJModuleServiceSwift/Classes/AJModuleService.swift; sourceTree = "<group>"; };
-		D9C1B6E142CAE757D301857BE13A9516 /* AJModuleServiceManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AJModuleServiceManager.swift; path = AJModuleServiceSwift/Classes/AJModuleServiceManager.swift; sourceTree = "<group>"; };
 		DE08783D9E2D56EBD97AD50517C5A069 /* String+AJKit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+AJKit.swift"; path = "AJKitSwift/Classes/Foundation/String+AJKit.swift"; sourceTree = "<group>"; };
+		E1167330ED6C1DE3A319C0129E94BE9F /* AJModuleServiceSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AJModuleServiceSwift.xcconfig; sourceTree = "<group>"; };
 		E55A25A6D6C0957E15F3F96891F5F14E /* AJKitSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AJKitSwift.modulemap; sourceTree = "<group>"; };
-		E6D1F84C968C392F7CE5EE69D30DBF94 /* AJModuleServiceSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AJModuleServiceSwift-Info.plist"; sourceTree = "<group>"; };
+		EA469B07227E4BD76CFB96C01D60EFEC /* AJModuleServiceSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AJModuleServiceSwift-dummy.m"; sourceTree = "<group>"; };
 		EE2B5DA9A51D6BCAD6900607DE059E40 /* AJKitSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AJKitSwift-Info.plist"; sourceTree = "<group>"; };
+		F340927DEAB244AA73C87931302DC967 /* AJModuleServiceSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AJModuleServiceSwift-Info.plist"; sourceTree = "<group>"; };
+		F6EE2DBAAE63ADBBD9097482CACB3077 /* AJModuleService.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AJModuleService.swift; path = AJModuleServiceSwift/Classes/AJModuleService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,20 +129,6 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		12408170864F5E7544C661CD2170062B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				57628537518849D4552108581BAD0EDC /* AJModuleServiceSwift.modulemap */,
-				1893D788202CFCC7A8DB3550A0E94645 /* AJModuleServiceSwift.xcconfig */,
-				24AB27E39832C2CE1C9FBBAB43C6D791 /* AJModuleServiceSwift-dummy.m */,
-				E6D1F84C968C392F7CE5EE69D30DBF94 /* AJModuleServiceSwift-Info.plist */,
-				41D944EDB82D321971298F62AB523118 /* AJModuleServiceSwift-prefix.pch */,
-				9A286350564CC4491EDB778608FAD71C /* AJModuleServiceSwift-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AJModuleServiceSwift";
-			sourceTree = "<group>";
-		};
 		13A8A161DECC2DCB20AEBB868B0373FB /* AJKitSwift */ = {
 			isa = PBXGroup;
 			children = (
@@ -151,16 +137,6 @@
 			);
 			name = AJKitSwift;
 			path = AJKitSwift;
-			sourceTree = "<group>";
-		};
-		13C2AD7EAE98A0954ED49A42ECF885FC /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				741C1DA06A3DC17F06C37AD3E162E89B /* AJModuleServiceSwift.podspec */,
-				17636C728A2775F01D7BBB83ADBD4603 /* LICENSE */,
-				B7CEAC48ACA081695D5CC6E31A9C6908 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		13D10178162999F8D48560FF65808DF9 /* Products */ = {
@@ -200,6 +176,21 @@
 			path = "Target Support Files/Pods-AJModuleServiceSwift_Example";
 			sourceTree = "<group>";
 		};
+		640BE79675E21FB2E231D202D65BADD8 /* AJModuleServiceSwift */ = {
+			isa = PBXGroup;
+			children = (
+				5E05A5FEDF376E4C53EFBCCAFBC8139A /* AJAppDelegate.swift */,
+				5D5A906297777C6882A7E48457284DCA /* AJModuleService.h */,
+				F6EE2DBAAE63ADBBD9097482CACB3077 /* AJModuleService.swift */,
+				A0718B3EFE142FA19E7D5C1E63C87D11 /* AJModuleServiceManager.swift */,
+				77A868FF703F4889B3124A122DCDEE5B /* main.swift */,
+				A86C799E57268A9EF4DD98C954812538 /* Pod */,
+				E2F6DD56AE0AFAF8087946D8A1C98126 /* Support Files */,
+			);
+			name = AJModuleServiceSwift;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		6543F16E5DC6E73CC769BA7E949191D5 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,24 +216,19 @@
 		995B0E4E146222F871A18EC13D0EE585 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9C03DAE4768F3D4186CEA9A9B85A3D71 /* AJModuleServiceSwift */,
+				640BE79675E21FB2E231D202D65BADD8 /* AJModuleServiceSwift */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		9C03DAE4768F3D4186CEA9A9B85A3D71 /* AJModuleServiceSwift */ = {
+		A86C799E57268A9EF4DD98C954812538 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				4374C8E65906088012A9AF4184889A7C /* AJAppDelegate.swift */,
-				D1761CB21DF3D666D36F1EF3F05CD9C2 /* AJModuleService.swift */,
-				D9C1B6E142CAE757D301857BE13A9516 /* AJModuleServiceManager.swift */,
-				140E8C1F77AA81A0C2E41C6098ADB8CB /* AJModuleServiceSwift.h */,
-				638B108FB51575E55330136129926F7F /* main.swift */,
-				13C2AD7EAE98A0954ED49A42ECF885FC /* Pod */,
-				12408170864F5E7544C661CD2170062B /* Support Files */,
+				481B66F010EB7396662A60063E625B61 /* AJModuleServiceSwift.podspec */,
+				6756C468034E255957148D285F7D29A4 /* LICENSE */,
+				54BC344393CBC82BAC320DFD07151CBB /* README.md */,
 			);
-			name = AJModuleServiceSwift;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -255,6 +241,20 @@
 				13D10178162999F8D48560FF65808DF9 /* Products */,
 				6543F16E5DC6E73CC769BA7E949191D5 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		E2F6DD56AE0AFAF8087946D8A1C98126 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0AE21CE7CAE261069DA7F978F7A5C925 /* AJModuleServiceSwift.modulemap */,
+				E1167330ED6C1DE3A319C0129E94BE9F /* AJModuleServiceSwift.xcconfig */,
+				EA469B07227E4BD76CFB96C01D60EFEC /* AJModuleServiceSwift-dummy.m */,
+				F340927DEAB244AA73C87931302DC967 /* AJModuleServiceSwift-Info.plist */,
+				564373BC9BDBC5AA3B038996F55EA9E1 /* AJModuleServiceSwift-prefix.pch */,
+				84D34C6DFF8FF1485AE1B58B45970188 /* AJModuleServiceSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AJModuleServiceSwift";
 			sourceTree = "<group>";
 		};
 		EB0B1A084E345173AC3E84F69EB8B6FE /* iOS */ = {
@@ -277,6 +277,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		205DF08CD93664A53AE562218E00A3F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8AA950599F288ACD4C619C75DCE7CD9E /* AJModuleService.h in Headers */,
+				8530BA4FB23B0DAA14C8985E96BA8A92 /* AJModuleServiceSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		42CCC4CDC4B50E4EA13430633DF3496D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -293,15 +302,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D5B8694A77D3224394BD263F62C4271E /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C1A23D2650EA8261797B35A687AE5B36 /* AJModuleServiceSwift-umbrella.h in Headers */,
-				A8974DACE79FEA7C973632E200F78C06 /* AJModuleServiceSwift.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -309,7 +309,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 41283FA4137F02185D49833B82A0FB63 /* Build configuration list for PBXNativeTarget "AJModuleServiceSwift" */;
 			buildPhases = (
-				D5B8694A77D3224394BD263F62C4271E /* Headers */,
+				205DF08CD93664A53AE562218E00A3F1 /* Headers */,
 				8F0C36FE5FB4594EA890E1AB95599FF9 /* Sources */,
 				975F0071832749911378435B9A8C1142 /* Frameworks */,
 				E397F0B9480594F1DA4110DD23E2AE66 /* Resources */,
@@ -472,7 +472,7 @@
 /* Begin XCBuildConfiguration section */
 		1D15624836B2401487EDFC4D630BE58D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1893D788202CFCC7A8DB3550A0E94645 /* AJModuleServiceSwift.xcconfig */;
+			baseConfigurationReference = E1167330ED6C1DE3A319C0129E94BE9F /* AJModuleServiceSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -536,7 +536,7 @@
 		};
 		56353AD2D4E407BFEDCC4251625EB34C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1893D788202CFCC7A8DB3550A0E94645 /* AJModuleServiceSwift.xcconfig */;
+			baseConfigurationReference = E1167330ED6C1DE3A319C0129E94BE9F /* AJModuleServiceSwift.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
