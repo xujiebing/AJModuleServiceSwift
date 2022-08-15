@@ -5,7 +5,11 @@
 //  Created by 徐结兵 on 2019/12/6.
 //
 
-import UIKit
+import AJFoundation
+import KakaJSON
+
+private let fileName = "moduleserviceConfig"
+private let fileType = "json"
 
 // 模块service调用优先级
 public enum AJModuleServicePriority: Int {
@@ -16,6 +20,30 @@ public enum AJModuleServicePriority: Int {
     case veryHigh // 最高
 }
 
+class AJModuleServiceModel: Convertible {
+    var module: String?
+    var className: String?
+    var service: AnyClass? {
+        get {
+            guard module != nil || className != nil else {
+                return nil
+            }
+            let fullClassName = "\(module!).\(className!)"
+            guard let cls = NSClassFromString(fullClassName) else {
+                return nil
+            }
+            guard cls is AJModuleService.Type else {
+                AJLog("\(fullClassName) is not subClass of AJModuleService")
+                return nil
+            }
+            return cls
+        }
+    }
+    required init() {
+        
+    }
+}
+
 open class AJModuleService: NSObject, UIApplicationDelegate {
     
     open var priority:AJModuleServicePriority {
@@ -24,18 +52,36 @@ open class AJModuleService: NSObject, UIApplicationDelegate {
         }
     }
     
-    
     required override public init() {
         
     }
     
     class func register() {
-        let array = AJModuleService.ajSubClasses
+        let array = moduleServiceClasses()
         for service in array {
             let vcClass = service as! AJModuleService.Type
             let service = vcClass.init()
             AJModuleServiceManager.shared.addService(service: service)
         }
+    }
+    
+    class func moduleServiceClasses() -> [AnyClass] {
+        var classArray = [AnyClass]()
+        let path = Bundle.main.path(forResource: fileName, ofType: fileType)
+        guard path != nil else {
+            assert(false, "未配置 \(fileName).\(fileType) 文件")
+            return []
+        }
+        do {
+            let json = try Bundle.ajGetJsonStringWithPath(path: path!)
+            let clsArray:[AJModuleServiceModel] = json?.kj.modelArray(AJModuleServiceModel.self) ?? []
+            for model in clsArray where model.service != nil {
+                classArray.append(model.service!)
+            }
+        } catch {
+            AJLog("\(fileName).\(fileType) 解析失败")
+        }
+        return classArray
     }
     
     open func applicationDidFinishLaunching(_ application: UIApplication) {
@@ -63,8 +109,8 @@ open class AJModuleService: NSObject, UIApplicationDelegate {
     open func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-    
-    
 }
 
-
+class AJTtttt : AJModuleService {
+    
+}
