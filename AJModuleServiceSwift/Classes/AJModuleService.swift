@@ -109,8 +109,12 @@ open class AJModuleService: NSObject, UIApplicationDelegate {
     open func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
-}
-
-class AJTtttt : AJModuleService {
     
+    open func didRegisterForRemoteNotifications(_ application: UIApplication, deviceToken: Data) {
+
+    }
+    
+    open func applicationContinue(_ application: UIApplication, userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
+        return true
+    }
 }
