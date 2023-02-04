@@ -114,6 +114,10 @@ open class AJModuleService: NSObject, UIApplicationDelegate {
 
     }
     
+    open func didReceiveRemoteNotification(_ application: UIApplication, userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        
+    }
+    
     open func applicationContinue(_ application: UIApplication, userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
         return true
     }

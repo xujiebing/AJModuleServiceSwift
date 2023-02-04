@@ -76,6 +76,13 @@ class AJAppDelegate: UIResponder, UIApplicationDelegate {
         }
     }
     
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any], fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult) -> Void) {
+        let array = AJModuleServiceManager.shared.serviceArray
+        for service in array {
+            service.didReceiveRemoteNotification(application, userInfo: userInfo, fetchCompletionHandler: completionHandler)
+        }
+    }
+    
     func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([UIUserActivityRestoring]?) -> Void) -> Bool {
         let array = AJModuleServiceManager.shared.serviceArray
         for service in array {
