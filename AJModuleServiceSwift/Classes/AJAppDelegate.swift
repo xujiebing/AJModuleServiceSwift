@@ -15,13 +15,12 @@ class AJAppDelegate: UIResponder, UIApplicationDelegate {
         AJModuleService.register()
     }
 
-    func applicationDidFinishLaunching(_ application: UIApplication) {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
         let array = AJModuleServiceManager.shared.serviceArray
         for service in array {
-            if service.responds(to: #selector(applicationDidFinishLaunching(_:))) {
-                service.applicationDidFinishLaunching(application)
-            }
+            service.applicationDidFinishLaunching(application, launchOptions)
         }
+        return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
