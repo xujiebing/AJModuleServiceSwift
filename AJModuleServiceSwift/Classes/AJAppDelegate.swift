@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AJUIKit
 
 @main
 class AJAppDelegate: UIResponder, UIApplicationDelegate {
@@ -23,6 +24,19 @@ class AJAppDelegate: UIResponder, UIApplicationDelegate {
         return true
     }
 
+    func application(_ application: UIApplication, supportedInterfaceOrientationsFor window: UIWindow?) -> UIInterfaceOrientationMask {
+        let vcName = AJCurrentVC().className
+        let array = AJModuleServiceManager.shared.serviceArray
+        var orientation = UIInterfaceOrientationMask.all
+        for service in array {
+            let result = service.supportedInterfaceOrientations(application, vcName)
+            if result.0 {
+                return result.1
+            }
+        }
+        return .all
+    }
+    
     func applicationWillResignActive(_ application: UIApplication) {
         let array = AJModuleServiceManager.shared.serviceArray
         for service in array {
